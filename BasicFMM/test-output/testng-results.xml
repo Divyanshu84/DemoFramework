@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22657" started-at="2021-01-30T22:19:34Z" finished-at="2021-01-30T22:19:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22657" started-at="2021-01-30T22:19:34Z" finished-at="2021-01-30T22:19:56Z">
+      <class name="com.testcase.LoginDemoApp">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="startSuite" is-config="true" duration-ms="551" started-at="2021-01-31T03:49:33Z" finished-at="2021-01-31T03:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="setup" is-config="true" duration-ms="9772" started-at="2021-01-31T03:49:34Z" finished-at="2021-01-31T03:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="loginApp" duration-ms="7140" started-at="2021-01-31T03:49:43Z" finished-at="2021-01-31T03:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="captureScreen" is-config="true" duration-ms="2132" started-at="2021-01-31T03:49:51Z" finished-at="2021-01-31T03:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginDemoApp.loginApp()[pri:0, instance:com.testcase.LoginDemoApp@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="loginAppAgain()[pri:1, instance:com.testcase.LoginDemoApp@42d80b78]" name="loginAppAgain" duration-ms="10" started-at="2021-01-31T03:49:53Z" finished-at="2021-01-31T03:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppAgain -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="captureScreen" is-config="true" duration-ms="618" started-at="2021-01-31T03:49:53Z" finished-at="2021-01-31T03:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAppAgain status=SUCCESS method=LoginDemoApp.loginAppAgain()[pri:1, instance:com.testcase.LoginDemoApp@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="Demo()[pri:2, instance:com.testcase.LoginDemoApp@42d80b78]" name="Demo" duration-ms="6" started-at="2021-01-31T03:49:53Z" finished-at="2021-01-31T03:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="captureScreen" is-config="true" duration-ms="651" started-at="2021-01-31T03:49:53Z" finished-at="2021-01-31T03:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Demo status=SUCCESS method=LoginDemoApp.Demo()[pri:2, instance:com.testcase.LoginDemoApp@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcase.LoginDemoApp@42d80b78]" name="teardown" is-config="true" duration-ms="2253" started-at="2021-01-31T03:49:54Z" finished-at="2021-01-31T03:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcase.LoginDemoApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

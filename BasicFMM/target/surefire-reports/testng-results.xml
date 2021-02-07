@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91253" started-at="2021-02-06T12:35:40Z" finished-at="2021-02-06T12:37:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="91253" started-at="2021-02-06T12:35:40Z" finished-at="2021-02-06T12:37:11Z">
+      <class name="com.testcase.LoginDemoApp">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="startSuite" is-config="true" duration-ms="1802" started-at="2021-02-06T18:05:38Z" finished-at="2021-02-06T18:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="setup" is-config="true" duration-ms="47186" started-at="2021-02-06T18:05:40Z" finished-at="2021-02-06T18:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="loginApp" duration-ms="19360" started-at="2021-02-06T18:06:27Z" finished-at="2021-02-06T18:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="captureScreen" is-config="true" duration-ms="15624" started-at="2021-02-06T18:06:47Z" finished-at="2021-02-06T18:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginDemoApp.loginApp()[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="loginAppAgain()[pri:1, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="loginAppAgain" duration-ms="2" started-at="2021-02-06T18:07:02Z" finished-at="2021-02-06T18:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppAgain -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="captureScreen" is-config="true" duration-ms="1193" started-at="2021-02-06T18:07:02Z" finished-at="2021-02-06T18:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAppAgain status=SUCCESS method=LoginDemoApp.loginAppAgain()[pri:1, instance:com.testcase.LoginDemoApp@5cc7c2a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="Demo()[pri:2, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="Demo" duration-ms="47" started-at="2021-02-06T18:07:04Z" finished-at="2021-02-06T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="captureScreen(org.testng.ITestResult)[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="captureScreen" is-config="true" duration-ms="1009" started-at="2021-02-06T18:07:04Z" finished-at="2021-02-06T18:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Demo status=SUCCESS method=LoginDemoApp.Demo()[pri:2, instance:com.testcase.LoginDemoApp@5cc7c2a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcase.LoginDemoApp@5cc7c2a6]" name="teardown" is-config="true" duration-ms="6752" started-at="2021-02-06T18:07:05Z" finished-at="2021-02-06T18:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcase.LoginDemoApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
