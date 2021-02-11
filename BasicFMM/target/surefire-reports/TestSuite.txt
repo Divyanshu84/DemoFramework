@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 95.512 s - in TestSuite
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 2.105 s <<< FAILURE! - in TestSuite
+com.testcase.LoginDemoApp.startSuite  Time elapsed: 1.05 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\User\eclipse-workspace2\BasicFMM\src\test\java\com\config\config.properties (The system cannot find the path specified)
+

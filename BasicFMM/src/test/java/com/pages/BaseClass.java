@@ -47,7 +47,7 @@ public class BaseClass {
 	public void setup( String browser, String url) {
 		
 		driver = BrowserCollection.StartApp(driver, browser , url);
-		//driver = BrowserCollection.StartApp(driver, config.getBrowser(), config.getUrl());
+	//	driver = BrowserCollection.StartApp(driver, config.getBrowser(), config.getUrl());
 	}
 
 	@AfterMethod
