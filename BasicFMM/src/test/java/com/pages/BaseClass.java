@@ -44,9 +44,9 @@ public class BaseClass {
 	@Parameters ({"browser","url"})
 	@BeforeClass
 
-	public void setup( String browser, String url) {
+	public void setup(String browser, String url) {
 		
-		driver = BrowserCollection.StartApp(driver, browser , url);
+		driver = BrowserCollection.StartApp(driver, browser,url);
 	//	driver = BrowserCollection.StartApp(driver, config.getBrowser(), config.getUrl());
 	}
 
